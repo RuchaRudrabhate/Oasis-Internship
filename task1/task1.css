@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+nav{
+    /* font-family: 'Source Serif Pro', serif;  */
+   font-family: 'Redressed', cursive;  
+   /* font-family: 'Noto Serif', serif; */
+   /* font-family: 'Akaya Telivigala', cursive; */
+   font-family: 'Open Sans', sans-serif;
+   font-size: 1.7rem;
+   color: white;
+}
+/* body{
+    /* background: linear-gradient(to bottom,rgba(243, 209, 243, 0.625) 0%,white 100%); */
+/* } */ 
+nav ul
+{
+    display:flex;
+    background-color:rgba(211, 141, 239, 0.556);
+    color: black;
+    list-style-type:none;
+    padding: 1.0rem;
+    margin: 0rem;
+    align-items: center;
+    cursor: pointer;
+}
+li{
+    margin-left: 2.0rem;
+    font-weight: bolder;
+    /* font-size: larger; */
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    /* background-blend-mode: soft-light; */
+
+    /* background: fixed; */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#calculator{
+    margin-left: 33rem;
+    margin-top: 5rem;
+    padding: 20px;
+    border: solid rgba(128, 128, 128, 0.449);
+    border-radius: 20px;
+    box-shadow: 0.5rem 0.5rem 1.0rem rgba(89, 88, 88, 0.42);
+    width: fit-content;
+
+}
+
+input[type="button"] {
+    width: 95%;
+    padding: 20px 40px;
+    background-color: rgba(192, 114, 223, 0.66);
+    color: rgb(60, 55, 55);
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    /* height:fit-content; */
+}
+input[type='text']{
+padding:20px 10px;
+font-size: 20px;
+background-color: rgba(238, 217, 246, 0.548);
+border-radius: 5px ;
+width: 90%;
+}

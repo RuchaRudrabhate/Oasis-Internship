@@ -1,0 +1,96 @@
+body{
+    background-color:azure;
+    display:block;
+    align-items: center;
+    align-content: center;
+    margin-left: 32%;
+    margin-right: 32%;
+    color:rgba(0, 0, 0, 0.822);
+    justify-content: center;
+    width: 40rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#name{
+    margin-left: 10rem;
+    font-size: 2.5rem;
+
+}
+img{
+    height: 20rem;
+    width: 30rem;
+    align-self: center;
+    margin-top: 4rem;
+    border-radius: 5px;
+    margin-left: 3rem;
+    box-shadow: 10px 10px 10px rgba(43, 43, 43, 0.473);
+
+
+}
+#main{
+    text-justify:distribute;
+    text-shadow: 1px 5px 5px rgba(43, 43, 43, 0.473);
+    /* box-shadow: 5px 5px 20px rgba(43, 43, 43, 0.473); */
+    border-radius: 3px;
+    
+
+}
+h3{
+    font-size: larger;
+    margin: 10px 10px 10px 10px;
+
+}
+h2{
+    margin-left:10px;
+    margin-top: 20px;
+
+
+}
+p{
+    font-size: medium;
+    margin:10px 10px 10px 10px;
+    margin-bottom: 20px;
+
+}
+#ref{
+    color:dodgerblue;
+    cursor:pointer;
+    
+}
+.two{
+    font-size: small;
+    justify-content: center;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f97e;
+    min-width: 100px;
+    /* list-style-type: disc; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px 5px;
+    z-index: 1;
+    font-size: small;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.email{
+    font-size: small;
+}
+.quote{
+    margin-bottom: 20px;
+    font-size: medium;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    border: solid rgba(255, 0, 136, 0.194);
+    border-radius: 10px ;
+    background-color: rgba(255, 0, 136, 0.277);
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.461);
+}

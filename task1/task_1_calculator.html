@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital calculator</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <nav>
+        <ul>
+        <li>Digital Calculator</li></ul>
+    </nav>
+    <div id="calculator">
+        <table id="calcy">
+            <tr>
+                <td colspan="3"> <input type="text" id="result"></td>
+                <td><input type="button" value="C" onclick="clr()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="x^2" onclick="dis('**2')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="1/x" onclick="dis('1/')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="%" onclick="dis('%')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="/" onclick="dis('/')" onkeydown="calfunction('event')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="dis('7')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="8" onclick="dis('8')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="9" onclick="dis('9')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="*" onclick="dis('*')" onkeydown="calfunction('event')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="dis('4')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="5" onclick="dis('5')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="6" onclick="dis('6')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="-" onclick="dis('-')" onkeydown="calfunction('event')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="dis('1')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="2" onclick="dis('2')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="3" onclick="dis('3')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="+" onclick="dis('+')" onkeydown="calfunction('event')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" onclick="dis('0')" onkeydown="calfunction('event')"></td>
+                <td><input type="button" value="." onclick="dis('.')" onkeydown="calfunction('event')"></td>
+                <td colspan="2"><input type="button" value="=" onclick="solve()"> </td>
+            </tr>
+        </table>
+
+    </div>
+    <script src="task1.js"></script>
+</body>
+</html>
